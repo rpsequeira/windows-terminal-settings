@@ -16,15 +16,13 @@ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -Skip
 ```
 
 Then run "notepad $PROFILE" and add these lines to the end:
+
 ```
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-Theme Paradox
+Set-PoshPrompt -Theme iterm2
 ```
 
-Install font Cascadia Code PL from https://github.com/microsoft/cascadia-code/releases .
+Install font CaskaydiaCove Nerd Font from https://github.com/ryanoasis/nerd-fonts/releases .
 
-
-
-
-Based on Scott Hanselman's How to make a pretty prompt in Windows Terminal with Powerline, Nerd Fonts, Cascadia Code, WSL, and oh-my-posh (https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh).
+Based on Scott Hanselman's How to make a pretty prompt in Windows Terminal with Powerline, Nerd Fonts, Cascadia Code, WSL, and oh-my-posh (https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh) and Taking your PowerShell prompt to the next level with Windows Terminal and Oh my Posh 3 (https://www.hanselman.com/blog/taking-your-powershell-prompt-to-the-next-level-with-windows-terminal-and-oh-my-posh-3).
